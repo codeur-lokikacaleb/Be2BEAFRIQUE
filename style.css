@@ -1,0 +1,74 @@
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Rammetto One", cursive;
+}
+
+section,
+footer {
+  padding: 4em 0;
+}
+
+#services i {
+  background-color: #333;
+  color: white;
+  font-size: 2.5em;
+  margin: 1em auto;
+  width: 2em;
+  line-height: 2em;
+  border-radius: 50%;
+  display: block;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+#services h3,
+#services h3 + p {
+  text-align: center;
+}
+
+footer li.list-group-item {
+  background-color: transparent;
+}
+
+footer li.list-group-item a {
+  color: white;
+}
+
+#produits img {
+  margin-bottom: 1em;
+}
+
+footer i {
+  vertical-align: middle;
+  width: 2em;
+  line-height: 2em;
+  display: inline-block;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  border-radius: 50%;
+}
+
+footer i.fa-facebook {
+  background-color: navy;
+}
+
+footer i.fa-twitter {
+  background-color: blue;
+}
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
